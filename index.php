@@ -6,6 +6,15 @@
   <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
 </head>
 <body class="bg-light">
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Hello Admin</a>
+    <div class="d-flex ms-auto">
+      <a href="logout.php" class="btn btn-outline-light">Logout</a>
+    </div>
+  </div>
+</nav>
   <div class="container py-5">
     <h2 class="mb-4 text-center">Student Records</h2>
     <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#addStudentModal">Add New Student</button>
@@ -150,3 +159,6 @@
   <script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 </body>
 </html>
+
+git config --global user.email "quitageroder@gmail.com"
+  git config --global user.name "Geroder Quita"
