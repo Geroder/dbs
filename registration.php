@@ -77,9 +77,6 @@ if (isset($_POST['register'])) {
         <div class="invalid-feedback">Email is required.</div>
    
     
-    
-    
-    
       </div>
       <div class="mb-3">
         <label for="password" class="form-label">Password</label>
